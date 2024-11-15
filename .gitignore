@@ -1,6 +1,8 @@
 screenshots
 .DS_Store
 videos
+test-results
+
 # Logs
 logs
 *.log
