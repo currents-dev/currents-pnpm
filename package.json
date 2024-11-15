@@ -1,16 +1,13 @@
 {
   "name": "currents-pnpm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress": "currents run --parallel --record --key xxx --ci-build-id `date +%s`"
-  },
+  "description": "Example repo for using currents and playwright with pnpm",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@currents/cli": "^2.0.0",
-    "cypress": "^9.6.0"
+    "@currents/playwright": "^1.6.2",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
   }
 }
